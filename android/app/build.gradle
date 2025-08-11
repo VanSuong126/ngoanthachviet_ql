@@ -2,6 +2,16 @@ apply plugin: "com.android.application"
 apply plugin: "org.jetbrains.kotlin.android"
 apply plugin: "com.facebook.react"
 
+project.ext.envConfigFiles = [
+	devDebug: ".env.dev",
+	devRelease: ".env.dev",
+    uatDebug: ".env.uat",
+	uatRelease: ".env.uat",
+    liveDebug: ".env.live",
+    liveRelease: ".env.live"
+]
+apply from: project(':react-native-config').projectDir.getPath() + "/dotenv.gradle"
+
 /**
  * This is the configuration block to customize your React Native Android app.
  * By default you don't need to apply any configuration, just uncomment the lines you need.
@@ -72,14 +82,35 @@ def enableProguardInReleaseBuilds = false
  */
 def jscFlavor = 'io.github.react-native-community:jsc-android:2026004.+'
 
+
+
 android {
     ndkVersion rootProject.ext.ndkVersion
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdk rootProject.ext.compileSdkVersion
-
-    namespace "com.ngoanthachviet_ql"
+    namespace "com.ngoanthachviet.manager"
+    flavorDimensions "default"
+        productFlavors {
+            live {
+                versionCode project.env.get("VERSION_CODE_ANDROID").toInteger()
+                versionName project.env.get("VERSION_NAME_ANDROID")
+                resValue "string", "build_config_package", project.env.get("ANDROID_APP_ID")
+            }
+            dev {
+                applicationIdSuffix ".dev"
+                versionCode project.env.get("VERSION_CODE_ANDROID").toInteger()
+                versionName project.env.get("VERSION_NAME_ANDROID")
+                resValue "string", "build_config_package",project.env.get("ANDROID_APP_ID")
+            }
+             uat {
+                applicationIdSuffix ".uat"
+                versionCode project.env.get("VERSION_CODE_ANDROID").toInteger()
+                versionName project.env.get("VERSION_NAME_ANDROID")
+                resValue "string", "build_config_package",project.env.get("ANDROID_APP_ID")
+            }
+        }
     defaultConfig {
-        applicationId "com.ngoanthachviet_ql"
+        applicationId "com.ngoanthachviet.manager"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
@@ -93,9 +124,10 @@ android {
             keyPassword 'android'
         }
     }
-    buildTypes {
+     buildTypes {
         debug {
             signingConfig signingConfigs.debug
+            matchingFallbacks = ['debug', 'release']
         }
         release {
             // Caution! In production, you need to generate your own keystore file.

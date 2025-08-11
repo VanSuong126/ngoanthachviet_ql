@@ -1,4 +1,4 @@
-package com.ngoanthachviet_ql
+package com.ngoanthachviet.manager
 
 import android.app.Application
 import com.facebook.react.PackageList
