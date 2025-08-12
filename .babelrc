@@ -4,17 +4,28 @@
             "module-resolver",
             {
                 "alias": {
-                    // main link
+                    "~root": [
+                        "./src"
+                    ],
                     "~assets": "./src/assets",
                     "~components": "./src/components",
+                    "~config": "./src/config",
                     "~constants": "./src/constants",
                     "~data": "./src/data",
-                    "~helpers": "./src/helpers",
+                    "~helper": "./src/helper",
                     "~navigator": "./src/navigator",
                     "~redux": "./src/redux",
                     "~screens": "./src/screens",
                     "~services": "./src/services",
-                    "~themes": "./src/themes",
+                    "~theme": "./src/theme",
+                    "~utils": "./src/helper/utils",
+                    "~providers": "./src/providers",
+                    //link child
+                    "~core": "./src/screens/Core",
+                    "~buttons": "./src/components/buttons",
+                    "~modals": "./src/components/modals",
+                    "~inputs": "./src/components/inputs",
+                    "~image": "./src/assets/images"
                 }
             }
         ]

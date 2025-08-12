@@ -7,13 +7,12 @@
 
 import { NewAppScreen } from '@react-native/new-app-screen';
 import { StatusBar, StyleSheet, useColorScheme, View } from 'react-native';
-import { Image } from 'react-native';
 
 import { Provider } from 'react-redux';
 import { PersistGate } from 'redux-persist/integration/react';
 import { store, persistor } from './src/redux/store';
+import Index from './src/index';
 
-import IconSuccess from '~assets/icons/iconCreateOrderSuccess.png';
 
 function App() {
   const isDarkMode = useColorScheme() === 'dark';
@@ -22,9 +21,7 @@ function App() {
     <Provider store={store}>
       <PersistGate loading={null} persistor={persistor}>
         <View style={styles.container}>
-          <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
-          <Image source={IconSuccess} style={{ width: 100, height: 100 }} />
-          <NewAppScreen templateFileName="App.tsx" />
+          <Index/>
         </View>
       </PersistGate>
     </Provider>
