@@ -11,7 +11,7 @@ import { Image } from 'react-native';
 
 import { Provider } from 'react-redux';
 import { PersistGate } from 'redux-persist/integration/react';
-import { store, persistor } from '~redux/store';
+import { store, persistor } from './src/redux/store';
 
 import IconSuccess from '~assets/icons/iconCreateOrderSuccess.png';
 

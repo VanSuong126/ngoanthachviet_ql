@@ -15,12 +15,13 @@
 		061D6A632E49A6A100B00990 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		061D6A642E49A6A100B00990 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		061D6A652E49A6A100B00990 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
-		0C80B921A6F3F58F76C31292 /* libPods-ngoanthachviet_ql.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-ngoanthachviet_ql.a */; };
+		0C80B921A6F3F58F76C31292 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		27DB118B279F0DE8F917A63D /* libPods-ngoanthachviet_ql-Dev_ngoanthachviet_ql.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 73B18B7DFC983F6B7AA0DA92 /* libPods-ngoanthachviet_ql-Dev_ngoanthachviet_ql.a */; };
 		60BE7C3F6B13A27D46236425 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
 		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		83CC0282BFBD661C25F53742 /* libPods-ngoanthachviet_ql.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A93AE6EF9D75AD83B34E106B /* libPods-ngoanthachviet_ql.a */; };
 		933F613DDC81E2596A94D4B4 /* libPods-ngoanthachviet_ql-Uat_ngoanthachviet_ql.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 12DD344792CEFB357F03468B /* libPods-ngoanthachviet_ql-Uat_ngoanthachviet_ql.a */; };
 /* End PBXBuildFile section */
 
@@ -43,6 +44,7 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ngoanthachviet_ql/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A67D538A883193EDDDB369DE /* Pods-ngoanthachviet_ql-Uat_ngoanthachviet_ql.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ngoanthachviet_ql-Uat_ngoanthachviet_ql.debug.xcconfig"; path = "Target Support Files/Pods-ngoanthachviet_ql-Uat_ngoanthachviet_ql/Pods-ngoanthachviet_ql-Uat_ngoanthachviet_ql.debug.xcconfig"; sourceTree = "<group>"; };
 		A6D974D152DB680001904E9A /* Pods-ngoanthachviet_ql-Uat_ngoanthachviet_ql.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ngoanthachviet_ql-Uat_ngoanthachviet_ql.release.xcconfig"; path = "Target Support Files/Pods-ngoanthachviet_ql-Uat_ngoanthachviet_ql/Pods-ngoanthachviet_ql-Uat_ngoanthachviet_ql.release.xcconfig"; sourceTree = "<group>"; };
+		A93AE6EF9D75AD83B34E106B /* libPods-ngoanthachviet_ql.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ngoanthachviet_ql.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -67,7 +69,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C80B921A6F3F58F76C31292 /* libPods-ngoanthachviet_ql.a in Frameworks */,
+				0C80B921A6F3F58F76C31292 /* BuildFile in Frameworks */,
+				83CC0282BFBD661C25F53742 /* libPods-ngoanthachviet_ql.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +95,7 @@
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				73B18B7DFC983F6B7AA0DA92 /* libPods-ngoanthachviet_ql-Dev_ngoanthachviet_ql.a */,
 				12DD344792CEFB357F03468B /* libPods-ngoanthachviet_ql-Uat_ngoanthachviet_ql.a */,
+				A93AE6EF9D75AD83B34E106B /* libPods-ngoanthachviet_ql.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -154,8 +158,8 @@
 				061D6A4E2E49A62A00B00990 /* Frameworks */,
 				061D6A502E49A62A00B00990 /* Resources */,
 				061D6A542E49A62A00B00990 /* Bundle React Native code and images */,
-				061D6A552E49A62A00B00990 /* [CP] Embed Pods Frameworks */,
 				061D6A562E49A62A00B00990 /* [CP] Copy Pods Resources */,
+				DAD8982406EDF1DC63A12BD8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -175,8 +179,8 @@
 				061D6A602E49A6A100B00990 /* Frameworks */,
 				061D6A622E49A6A100B00990 /* Resources */,
 				061D6A662E49A6A100B00990 /* Bundle React Native code and images */,
-				061D6A672E49A6A100B00990 /* [CP] Embed Pods Frameworks */,
 				061D6A682E49A6A100B00990 /* [CP] Copy Pods Resources */,
+				5A8F4DD96CE5B579FDFB2AE9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -196,8 +200,8 @@
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
 				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+				CBB40240D0A78F72E1F0F06B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -291,23 +295,6 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"$REACT_NATIVE_PATH/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"$REACT_NATIVE_PATH/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
 		};
-		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ngoanthachviet_ql/Pods-ngoanthachviet_ql-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ngoanthachviet_ql/Pods-ngoanthachviet_ql-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ngoanthachviet_ql/Pods-ngoanthachviet_ql-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		061D6A4B2E49A62A00B00990 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -345,23 +332,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"$REACT_NATIVE_PATH/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"$REACT_NATIVE_PATH/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
-		};
-		061D6A552E49A62A00B00990 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ngoanthachviet_ql-Dev_ngoanthachviet_ql/Pods-ngoanthachviet_ql-Dev_ngoanthachviet_ql-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ngoanthachviet_ql-Dev_ngoanthachviet_ql/Pods-ngoanthachviet_ql-Dev_ngoanthachviet_ql-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ngoanthachviet_ql-Dev_ngoanthachviet_ql/Pods-ngoanthachviet_ql-Dev_ngoanthachviet_ql-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
 		};
 		061D6A562E49A62A00B00990 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -418,23 +388,6 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"$REACT_NATIVE_PATH/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"$REACT_NATIVE_PATH/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
 		};
-		061D6A672E49A6A100B00990 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ngoanthachviet_ql-Uat_ngoanthachviet_ql/Pods-ngoanthachviet_ql-Uat_ngoanthachviet_ql-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ngoanthachviet_ql-Uat_ngoanthachviet_ql/Pods-ngoanthachviet_ql-Uat_ngoanthachviet_ql-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ngoanthachviet_ql-Uat_ngoanthachviet_ql/Pods-ngoanthachviet_ql-Uat_ngoanthachviet_ql-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		061D6A682E49A6A100B00990 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -450,6 +403,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ngoanthachviet_ql-Uat_ngoanthachviet_ql/Pods-ngoanthachviet_ql-Uat_ngoanthachviet_ql-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A8F4DD96CE5B579FDFB2AE9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ngoanthachviet_ql-Uat_ngoanthachviet_ql/Pods-ngoanthachviet_ql-Uat_ngoanthachviet_ql-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ngoanthachviet_ql-Uat_ngoanthachviet_ql/Pods-ngoanthachviet_ql-Uat_ngoanthachviet_ql-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ngoanthachviet_ql-Uat_ngoanthachviet_ql/Pods-ngoanthachviet_ql-Uat_ngoanthachviet_ql-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
@@ -472,6 +442,40 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBB40240D0A78F72E1F0F06B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ngoanthachviet_ql/Pods-ngoanthachviet_ql-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ngoanthachviet_ql/Pods-ngoanthachviet_ql-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ngoanthachviet_ql/Pods-ngoanthachviet_ql-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAD8982406EDF1DC63A12BD8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ngoanthachviet_ql-Dev_ngoanthachviet_ql/Pods-ngoanthachviet_ql-Dev_ngoanthachviet_ql-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ngoanthachviet_ql-Dev_ngoanthachviet_ql/Pods-ngoanthachviet_ql-Dev_ngoanthachviet_ql-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ngoanthachviet_ql-Dev_ngoanthachviet_ql/Pods-ngoanthachviet_ql-Dev_ngoanthachviet_ql-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
