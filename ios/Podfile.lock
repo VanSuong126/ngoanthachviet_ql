@@ -2196,6 +2196,34 @@ PODS:
     - ReactCommon/turbomodule/core
     - SocketRocket
     - Yoga
+  - RNBootSplash (6.3.10):
+    - boost
+    - DoubleConversion
+    - fast_float
+    - fmt
+    - glog
+    - RCT-Folly
+    - RCT-Folly/Fabric
+    - RCTRequired
+    - RCTTypeSafety
+    - React-Core
+    - React-debug
+    - React-Fabric
+    - React-featureflags
+    - React-graphics
+    - React-ImageManager
+    - React-jsc
+    - React-jsi
+    - React-NativeModulesApple
+    - React-RCTFabric
+    - React-renderercss
+    - React-rendererdebug
+    - React-utils
+    - ReactCodegen
+    - ReactCommon/turbomodule/bridging
+    - ReactCommon/turbomodule/core
+    - SocketRocket
+    - Yoga
   - RNDeviceInfo (14.0.4):
     - React-Core
   - RNScreens (4.13.1):
@@ -2397,6 +2425,7 @@ DEPENDENCIES:
   - ReactCodegen (from `build/generated/ios`)
   - ReactCommon/turbomodule/core (from `../node_modules/react-native/ReactCommon`)
   - ReactNativeAvoidSoftinput (from `../node_modules/react-native-avoid-softinput`)
+  - RNBootSplash (from `../node_modules/react-native-bootsplash`)
   - RNDeviceInfo (from `../node_modules/react-native-device-info`)
   - RNScreens (from `../node_modules/react-native-screens`)
   - RNSVG (from `../node_modules/react-native-svg`)
@@ -2564,6 +2593,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon"
   ReactNativeAvoidSoftinput:
     :path: "../node_modules/react-native-avoid-softinput"
+  RNBootSplash:
+    :path: "../node_modules/react-native-bootsplash"
   RNDeviceInfo:
     :path: "../node_modules/react-native-device-info"
   RNScreens:
@@ -2653,6 +2684,7 @@ SPEC CHECKSUMS:
   ReactCodegen: 190bb0ae4304e02dda502e737c32288797bc28bd
   ReactCommon: 650c091009d523933f2d87eb7d0859721d60a1ae
   ReactNativeAvoidSoftinput: 6799ebc0d3919f8e2f794fbfe4a0faf226828fb9
+  RNBootSplash: f6a7940097911fd781b25df5a961282ba528aa5e
   RNDeviceInfo: d863506092aef7e7af3a1c350c913d867d795047
   RNScreens: 4835c91900ec583007ef1b4a499196da31594ee2
   RNSVG: bb5fde2dbb2e202d557c27b2a3a53035ffb01aac
