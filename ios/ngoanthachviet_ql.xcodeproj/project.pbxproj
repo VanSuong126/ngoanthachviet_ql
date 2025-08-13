@@ -15,14 +15,25 @@
 		061D6A632E49A6A100B00990 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		061D6A642E49A6A100B00990 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		061D6A652E49A6A100B00990 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
+		0674F4D3721E4E938998E5D1 /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1266098DC544C78BC8BD10E /* Inter-Medium.ttf */; };
 		0C80B921A6F3F58F76C31292 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		1E9A3042C99242FEBDAE7160 /* Inter-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7CFA3289B6A449DCA68BF566 /* Inter-ExtraBold.ttf */; };
 		27DB118B279F0DE8F917A63D /* libPods-ngoanthachviet_ql-Dev_ngoanthachviet_ql.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 73B18B7DFC983F6B7AA0DA92 /* libPods-ngoanthachviet_ql-Dev_ngoanthachviet_ql.a */; };
+		36B64AF266974DF69808EE06 /* Inter-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1ADC3DAFD37E414E9B0365F6 /* Inter-Black.ttf */; };
 		60BE7C3F6B13A27D46236425 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
+		6DE0D0315BED414BB6C02C37 /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E2FE924F97414A659CC32271 /* Inter-Regular.ttf */; };
 		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
+		778C3E32D4284A11A8FC78DA /* UTM-Aquarelle.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D4C78616CF52457D828481AC /* UTM-Aquarelle.ttf */; };
+		7DBB28F3C1F04B81A619F7A7 /* Inter-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF2226B1E7E34114908F7629 /* Inter-Thin.ttf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		83CC0282BFBD661C25F53742 /* libPods-ngoanthachviet_ql.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A93AE6EF9D75AD83B34E106B /* libPods-ngoanthachviet_ql.a */; };
 		933F613DDC81E2596A94D4B4 /* libPods-ngoanthachviet_ql-Uat_ngoanthachviet_ql.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 12DD344792CEFB357F03468B /* libPods-ngoanthachviet_ql-Uat_ngoanthachviet_ql.a */; };
+		A6B6A84D3875463B84422D33 /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EF88D00E389B44D3ADD94391 /* Inter-Bold.ttf */; };
+		AFDDC88C99354C0498D8C403 /* Inter-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F63E5DB69A9C4BCE90581435 /* Inter-Light.ttf */; };
+		BCF6F9DCBB6B44A0B80553FE /* UTM-PenumbraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F1D3387203C5406ABBD1CEBA /* UTM-PenumbraBold.ttf */; };
+		C20B51EDE5494C8FB0DA4C96 /* Inter-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8790D892DE0C4D3E9B166350 /* Inter-ExtraLight.ttf */; };
+		E28A2B277EBF46808A451303 /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 45ECB46AE56E4220A4A75C49 /* Inter-SemiBold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,17 +46,28 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ngoanthachviet_ql/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ngoanthachviet_ql/Info.plist; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = ngoanthachviet_ql/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		1ADC3DAFD37E414E9B0365F6 /* Inter-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Black.ttf"; path = "../src/assets/fonts/Inter-Black.ttf"; sourceTree = "<group>"; };
 		241EEEC423B659AD9E72F1AE /* Pods-ngoanthachviet_ql-Dev_ngoanthachviet_ql.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ngoanthachviet_ql-Dev_ngoanthachviet_ql.release.xcconfig"; path = "Target Support Files/Pods-ngoanthachviet_ql-Dev_ngoanthachviet_ql/Pods-ngoanthachviet_ql-Dev_ngoanthachviet_ql.release.xcconfig"; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-ngoanthachviet_ql.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ngoanthachviet_ql.debug.xcconfig"; path = "Target Support Files/Pods-ngoanthachviet_ql/Pods-ngoanthachviet_ql.debug.xcconfig"; sourceTree = "<group>"; };
+		45ECB46AE56E4220A4A75C49 /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-SemiBold.ttf"; path = "../src/assets/fonts/Inter-SemiBold.ttf"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-ngoanthachviet_ql.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ngoanthachviet_ql.release.xcconfig"; path = "Target Support Files/Pods-ngoanthachviet_ql/Pods-ngoanthachviet_ql.release.xcconfig"; sourceTree = "<group>"; };
 		73B18B7DFC983F6B7AA0DA92 /* libPods-ngoanthachviet_ql-Dev_ngoanthachviet_ql.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ngoanthachviet_ql-Dev_ngoanthachviet_ql.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ngoanthachviet_ql/AppDelegate.swift; sourceTree = "<group>"; };
+		7CFA3289B6A449DCA68BF566 /* Inter-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-ExtraBold.ttf"; path = "../src/assets/fonts/Inter-ExtraBold.ttf"; sourceTree = "<group>"; };
 		81696EFD4FF8DAE3FA1799B5 /* Pods-ngoanthachviet_ql-Dev_ngoanthachviet_ql.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ngoanthachviet_ql-Dev_ngoanthachviet_ql.debug.xcconfig"; path = "Target Support Files/Pods-ngoanthachviet_ql-Dev_ngoanthachviet_ql/Pods-ngoanthachviet_ql-Dev_ngoanthachviet_ql.debug.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ngoanthachviet_ql/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8790D892DE0C4D3E9B166350 /* Inter-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-ExtraLight.ttf"; path = "../src/assets/fonts/Inter-ExtraLight.ttf"; sourceTree = "<group>"; };
+		A1266098DC544C78BC8BD10E /* Inter-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Medium.ttf"; path = "../src/assets/fonts/Inter-Medium.ttf"; sourceTree = "<group>"; };
 		A67D538A883193EDDDB369DE /* Pods-ngoanthachviet_ql-Uat_ngoanthachviet_ql.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ngoanthachviet_ql-Uat_ngoanthachviet_ql.debug.xcconfig"; path = "Target Support Files/Pods-ngoanthachviet_ql-Uat_ngoanthachviet_ql/Pods-ngoanthachviet_ql-Uat_ngoanthachviet_ql.debug.xcconfig"; sourceTree = "<group>"; };
 		A6D974D152DB680001904E9A /* Pods-ngoanthachviet_ql-Uat_ngoanthachviet_ql.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ngoanthachviet_ql-Uat_ngoanthachviet_ql.release.xcconfig"; path = "Target Support Files/Pods-ngoanthachviet_ql-Uat_ngoanthachviet_ql/Pods-ngoanthachviet_ql-Uat_ngoanthachviet_ql.release.xcconfig"; sourceTree = "<group>"; };
 		A93AE6EF9D75AD83B34E106B /* libPods-ngoanthachviet_ql.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ngoanthachviet_ql.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF2226B1E7E34114908F7629 /* Inter-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Thin.ttf"; path = "../src/assets/fonts/Inter-Thin.ttf"; sourceTree = "<group>"; };
+		D4C78616CF52457D828481AC /* UTM-Aquarelle.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "UTM-Aquarelle.ttf"; path = "../src/assets/fonts/UTM-Aquarelle.ttf"; sourceTree = "<group>"; };
+		E2FE924F97414A659CC32271 /* Inter-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Regular.ttf"; path = "../src/assets/fonts/Inter-Regular.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		EF88D00E389B44D3ADD94391 /* Inter-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Bold.ttf"; path = "../src/assets/fonts/Inter-Bold.ttf"; sourceTree = "<group>"; };
+		F1D3387203C5406ABBD1CEBA /* UTM-PenumbraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "UTM-PenumbraBold.ttf"; path = "../src/assets/fonts/UTM-PenumbraBold.ttf"; sourceTree = "<group>"; };
+		F63E5DB69A9C4BCE90581435 /* Inter-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Light.ttf"; path = "../src/assets/fonts/Inter-Light.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +111,25 @@
 			name = ngoanthachviet_ql;
 			sourceTree = "<group>";
 		};
+		1AFA5C468AE84DD8B91921B8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1ADC3DAFD37E414E9B0365F6 /* Inter-Black.ttf */,
+				EF88D00E389B44D3ADD94391 /* Inter-Bold.ttf */,
+				7CFA3289B6A449DCA68BF566 /* Inter-ExtraBold.ttf */,
+				8790D892DE0C4D3E9B166350 /* Inter-ExtraLight.ttf */,
+				F63E5DB69A9C4BCE90581435 /* Inter-Light.ttf */,
+				A1266098DC544C78BC8BD10E /* Inter-Medium.ttf */,
+				E2FE924F97414A659CC32271 /* Inter-Regular.ttf */,
+				45ECB46AE56E4220A4A75C49 /* Inter-SemiBold.ttf */,
+				CF2226B1E7E34114908F7629 /* Inter-Thin.ttf */,
+				D4C78616CF52457D828481AC /* UTM-Aquarelle.ttf */,
+				F1D3387203C5406ABBD1CEBA /* UTM-PenumbraBold.ttf */,
+			);
+			name = Resources;
+			path = "";
+			sourceTree = "<group>";
+		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -117,6 +158,7 @@
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
 				061D6A5B2E49A62A00B00990 /* ngoanthachviet_ql Dev-Info.plist */,
 				061D6A6D2E49A6A100B00990 /* ngoanthachviet_ql Uat-Info.plist */,
+				1AFA5C468AE84DD8B91921B8 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -159,6 +201,7 @@
 				061D6A502E49A62A00B00990 /* Resources */,
 				061D6A542E49A62A00B00990 /* Bundle React Native code and images */,
 				061D6A562E49A62A00B00990 /* [CP] Copy Pods Resources */,
+				7A078CA17B431DE01FF71F38 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -179,6 +222,7 @@
 				061D6A622E49A6A100B00990 /* Resources */,
 				061D6A662E49A6A100B00990 /* Bundle React Native code and images */,
 				061D6A682E49A6A100B00990 /* [CP] Copy Pods Resources */,
+				51C7629AFCF5AC52C47EB4B7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -199,6 +243,7 @@
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
 				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+				85E0BE0F75E63726005401DB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -270,6 +315,17 @@
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				60BE7C3F6B13A27D46236425 /* PrivacyInfo.xcprivacy in Resources */,
+				36B64AF266974DF69808EE06 /* Inter-Black.ttf in Resources */,
+				A6B6A84D3875463B84422D33 /* Inter-Bold.ttf in Resources */,
+				1E9A3042C99242FEBDAE7160 /* Inter-ExtraBold.ttf in Resources */,
+				C20B51EDE5494C8FB0DA4C96 /* Inter-ExtraLight.ttf in Resources */,
+				AFDDC88C99354C0498D8C403 /* Inter-Light.ttf in Resources */,
+				0674F4D3721E4E938998E5D1 /* Inter-Medium.ttf in Resources */,
+				6DE0D0315BED414BB6C02C37 /* Inter-Regular.ttf in Resources */,
+				E28A2B277EBF46808A451303 /* Inter-SemiBold.ttf in Resources */,
+				7DBB28F3C1F04B81A619F7A7 /* Inter-Thin.ttf in Resources */,
+				778C3E32D4284A11A8FC78DA /* UTM-Aquarelle.ttf in Resources */,
+				BCF6F9DCBB6B44A0B80553FE /* UTM-PenumbraBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,6 +456,57 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ngoanthachviet_ql-Uat_ngoanthachviet_ql/Pods-ngoanthachviet_ql-Uat_ngoanthachviet_ql-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51C7629AFCF5AC52C47EB4B7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ngoanthachviet_ql-Uat_ngoanthachviet_ql/Pods-ngoanthachviet_ql-Uat_ngoanthachviet_ql-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ngoanthachviet_ql-Uat_ngoanthachviet_ql/Pods-ngoanthachviet_ql-Uat_ngoanthachviet_ql-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ngoanthachviet_ql-Uat_ngoanthachviet_ql/Pods-ngoanthachviet_ql-Uat_ngoanthachviet_ql-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A078CA17B431DE01FF71F38 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ngoanthachviet_ql-Dev_ngoanthachviet_ql/Pods-ngoanthachviet_ql-Dev_ngoanthachviet_ql-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ngoanthachviet_ql-Dev_ngoanthachviet_ql/Pods-ngoanthachviet_ql-Dev_ngoanthachviet_ql-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ngoanthachviet_ql-Dev_ngoanthachviet_ql/Pods-ngoanthachviet_ql-Dev_ngoanthachviet_ql-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85E0BE0F75E63726005401DB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ngoanthachviet_ql/Pods-ngoanthachviet_ql-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ngoanthachviet_ql/Pods-ngoanthachviet_ql-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ngoanthachviet_ql/Pods-ngoanthachviet_ql-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {

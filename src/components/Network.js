@@ -1,9 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
-import { Animated, Text, StyleSheet, Dimensions } from 'react-native';
+import { Animated, Text, StyleSheet } from 'react-native';
 import NetInfo from '@react-native-community/netinfo';
 import RNRestart from 'react-native-restart';
-
-const { width } = Dimensions.get('window');
 
 const Network = () => {
   const opacityAnim = useRef(new Animated.Value(0)).current;
